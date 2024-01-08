@@ -1,0 +1,3 @@
+vcf_to_phase: joint_call_passing.goldenPath.20230726.vep.vcf.gz 
+vcf_index: joint_call_passing.goldenPath.20230726.vep.vcf.gz.tbi
+map_directory: recombination_maps/beagle_maps

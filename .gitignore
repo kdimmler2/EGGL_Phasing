@@ -1,0 +1,11 @@
+joint_call_passing.goldenPath.20230726.vep.vcf.gz
+joint_call_passing.goldenPath.20230726.vep.vcf.gz.tbi
+bcftools*
+norm.slurm
+stats
+stats.slurm
+wgs.list
+jobs
+.logs
+phasing
+.snakemake*

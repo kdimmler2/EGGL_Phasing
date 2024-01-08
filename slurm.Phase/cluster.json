@@ -1,0 +1,22 @@
+{
+    "split" :
+    {
+        "output" : ".logs/{rule}/chr{wildcards.chrom}/%j.{rule}.out",
+        "error"  : ".logs/{rule}/chr{wildcards.chrom}/%j.{rule}.err"
+    },
+    "phase" :
+    {
+        "output" : ".logs/{rule}/chr{wildcards.chrom}/%j.{rule}.out",
+        "error"  : ".logs/{rule}/chr{wildcards.chrom}/%j.{rule}.err"
+    },
+    "vcf_list" :
+    {
+        "output" : ".logs/{rule}/%j.{rule}.out",
+        "error"  : ".logs/{rule}/%j.{rule}.err"
+    },
+    "gather_vcfs" :
+    {
+        "output" : ".logs/%j.{rule}.out",
+        "error"  : ".logs/%j.{rule}.err"
+    },
+}
