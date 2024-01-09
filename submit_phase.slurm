@@ -15,7 +15,7 @@ set -e
 
 cd $SLURM_SUBMIT_DIR
 
-conda activate nugen 
+micromamba activate phase 
 
 snakemake -s phase.smk \
     --profile slurm.Phase \
