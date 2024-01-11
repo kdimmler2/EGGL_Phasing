@@ -10,3 +10,4 @@ jobs
 phasing
 .snakemake*
 goldenPath.Phased.vcf.gz*
+/isec/
