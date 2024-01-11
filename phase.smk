@@ -40,14 +40,14 @@ rule phase:
 		indexed_vcf = 'phasing/phased/chr{chrom}/output.vcf.gz.tbi'
 	threads: 24
 	resources:
-		time    = 5760,
+		time    = 720,
 		mem_mb  = 200000,
 		cpus    = 4
 	params:
 		map_directory = config['map_directory']
 	shell:
 		'''
-			java -jar beagle.22Jul22.46e.jar \
+			java -Xmx200g -jar beagle.22Jul22.46e.jar \
 				gt={input.split_vcf} \
 				chrom=chr{wildcards.chrom} \
 				map={params.map_directory}/BEAGLE_Averaged_ECA{wildcards.chrom}_map.txt \

@@ -9,3 +9,4 @@ jobs
 .logs
 phasing
 .snakemake*
+goldenPath.Phased.vcf.gz*
