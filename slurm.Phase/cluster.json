@@ -1,5 +1,10 @@
 {
-    "split" :
+    "split_vcf" :
+    {
+        "output" : ".logs/{rule}/chr{wildcards.chrom}/%j.{rule}.out",
+        "error"  : ".logs/{rule}/chr{wildcards.chrom}/%j.{rule}.err"
+    },
+    "split_multis" :
     {
         "output" : ".logs/{rule}/chr{wildcards.chrom}/%j.{rule}.out",
         "error"  : ".logs/{rule}/chr{wildcards.chrom}/%j.{rule}.err"

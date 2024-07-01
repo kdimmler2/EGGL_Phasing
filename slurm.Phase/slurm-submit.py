@@ -13,7 +13,7 @@ SBATCH_DEFAULTS = """
                   ntasks=1
                   mem=16g
                   time=02:00:00
-                  partition=amdsmall,amdlarge
+                  partition=amdsmall
                   account=mccuem
                   """
 CLUSTER_CONFIG = "cluster.json"
